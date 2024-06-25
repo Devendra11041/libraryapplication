@@ -1,0 +1,68 @@
+/* Enter your custom styles here */
+
+.page {
+  background-image: url("https://th.bing.com/th/id/R.7f3a37163071d30bb3c048d2b848857c?rik=qRY5cTTG3zDrpA&riu=http%3a%2f%2fwww.galeriemagazine.com%2fwp-content%2fuploads%2f2018%2f05%2fNYPLSelect.jpg&ehk=W01ABr2lV7cAFaPHFHMDRe8%2bTit%2fyi6AukWbJZta958%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.titleID {
+  padding-right: 70%;
+}
+
+.classregister .sapMDialogScrollCont {
+  background-color: #f0f5ff;
+  /* Light blue color for the dialog content */
+}
+
+.blueText {
+  color: rgb(24, 6, 220);
+  font-size: 16px;
+}
+
+/* .idactiveloans{
+    background-color: green
+  } */
+.classactiveloan {
+  background-color: rgb(200, 227, 200)
+}
+
+.classusertable {
+  background-color: rgb(244, 216, 197)
+}
+
+.largeLabel {
+  font-size: 100%;
+  color: rgb(243, 27, 35);
+}
+
+/* .classuserpage{
+    background-color:rgb(192, 23, 62)
+  } */
+.uservboxcalss {
+  padding-right: 70%;
+}
+
+.classuservbox {
+  padding-top: 10%;
+}
+
+.classuserbtn {
+  padding-left: 50%;
+}
+
+.redMessageBox .sapMMessageBoxText {
+  color: red !important;
+}
+
+.classdync {
+  color: rgb(223, 216, 228)
+}
+.classuserpage{
+  background-color: rgb(230, 219, 240)
+}
+.classcolmbooks{
+  background-color:rgb(233, 228, 238)
+}

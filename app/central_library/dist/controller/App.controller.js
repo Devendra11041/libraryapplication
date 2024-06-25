@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(r){"use strict";return r.extend("com.app.centrallibrarycentrallibrarycentrallibrary.controller.App",{onInit:function(){}})});
+//# sourceMappingURL=App.controller.js.map

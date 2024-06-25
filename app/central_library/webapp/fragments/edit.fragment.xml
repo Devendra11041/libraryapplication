@@ -1,0 +1,117 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <Dialog
+        id="editDialog"
+        title="Edit Details"
+    >
+        <VBox
+            id="idlableedit"
+            class="sapUiSmallMargin"
+        >
+            <Label
+                id="idlableAuthor"
+                text="Author"
+                class="sapUiTinyMarginBottom"
+            />
+            <Input
+                id="authorInput"
+                value="{newBookModel>/Author}"
+                width="100%"
+            />
+
+            <Label
+                id="idlablegenre"
+                text="Genre"
+                class="sapUiTinyMarginBottom"
+            />
+            <Input
+                id="genreInput"
+                value="{newBookModel>/genre}"
+                width="100%"
+            />
+
+            <Label
+                id="idlableLanguage"
+                text="Language"
+                class="sapUiTinyMarginBottom"
+            />
+            <Input
+                id="languageInput"
+                value="{newBookModel>/Language}"
+                width="100%"
+            />
+
+            <Label
+                id="idlablePrice"
+                text="Price"
+                class="sapUiTinyMarginBottom"
+            />
+            <Input
+                id="priceInput"
+                value="{newBookModel>/Price}"
+                width="100%"
+                type="Number"
+            />
+            <Label
+                id="idlabtotalbook"
+                text="Total Books"
+                class="sapUiTinyMarginBottom"
+            />
+            <Input
+                id="totalbookInput"
+                value="{newBookModel>/total_books}"
+                width="100%"
+                type="Number"
+            />
+            <Label
+                id="idISBN"
+                text="ISBN"
+                class="sapUiTinyMarginBottom"
+            />
+            <Input
+                id="isbnbook"
+                value="{newBookModel>/ISBN}"
+                width="100%"
+            />
+            <Label
+                id="idlabeltitle"
+                text="Title"
+                class="sapUiTinyMarginBottom"
+            />
+            <Input
+                id="titleinput"
+                value="{newBookModel>/title}"
+                width="100%"
+            />
+
+            <Label
+                id="idlabelavilable"
+                text="Book availability"
+                class="sapUiTinyMarginBottom"
+            />
+            <Input
+                id="availabilitynput"
+                value="{newBookModel>/availability}"
+                width="100%"
+            />
+        </VBox>
+        <beginButton>
+            <Button
+                id="idbutsave"
+                text="Save"
+                press="onSavePress"
+                type="Success"
+            />
+        </beginButton>
+        <endButton>
+            <Button
+                id="idbutcancle"
+                text="Cancel"
+                press="onCancelPress"
+                type="Reject"
+            />
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(t){"use strict";return t.extend("com.app.centrallibrary.controller.BookData",{onInit:function(){const t=this.getOwnerComponent().getRouter();t.attachRoutePatternMatched(this.onBookDetailsLoad,this)},onBookDetailsLoad:function(t){const{BookId:o}=t.getParameter("arguments");this.ID=o;const e=t.getParameter("name");const n=this.getView().byId("idBookDetailsObjectPage");n.bindElement(`/Book(${o})`,{})},onbackpage:function(){window.history.back()}})});
+//# sourceMappingURL=BookData.controller.js.map

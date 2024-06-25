@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/core/Fragment"],function(e,r){"use strict";return e.extend("com.app.centrallibrary.controller.Basecontroller",{onInit:function(){},createData:function(e,r,t){return new Promise((n,a)=>{e.create(t,r,{refreshAfterChange:true,success:function(e){n(e)},error:function(e){a(e)}})})},loadFragment:async function(e){const t=await r.load({id:this.getView().getId(),name:`com.app.centrallibrary.fragments.${e}`,controller:this});this.getView().addDependent(t);return t}})});
+//# sourceMappingURL=Basecontroller.js.map
